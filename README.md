@@ -22,8 +22,8 @@ A simple and responsive weather application built using **HTML, CSS, and JavaScr
 ## 🚀 Getting Started
 
 ### 1️⃣ Clone the repository  
-git clone https://github.com/AdithyaSirigineedi/Weather-App.git
-
+ https://github.com/AdithyaSirigineedi/Weather-Application.git
+ 
 # 🌍 API Information
 This app fetches weather data from OpenWeatherMap API. Below is how it works:
 
