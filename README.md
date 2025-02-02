@@ -33,6 +33,31 @@ Sign up for a free account.
 Generate your API key from the dashboard.
 
 
+# 🚧 Challenges Faced & Solutions
 
-
+🌍 1. CORS Policy Issue
+Problem: When making API requests, the browser blocked them due to CORS restrictions.
+Solution:
+Ensured the API request used https:// instead of http://.
+Used OpenWeatherMap's proper API endpoint, which includes correct CORS headers.
+🏙️ 2. Incorrect City Name Display
+Problem: Sometimes, the API returned unexpected city names or incorrect locations.
+Solution:
+Used latitude & longitude instead of relying only on the city name.
+Implemented reverse geocoding to accurately map coordinates to city names.
+📱 3. Responsive Design Issues
+Problem: The weather app broke on smaller screens due to text and layout issues.
+Solution:
+Used CSS media queries to make the app mobile-friendly.
+Adjusted font sizes, margins, and grid layouts for better responsiveness.
+🌐 4. API Rate Limits
+Problem: OpenWeatherMap has a rate limit on free accounts, causing temporary failures.
+Solution:
+Added a loading message and an error handling function to notify users.
+Suggested users create their own API keys to avoid exceeding limits.
+⚡ 5. Delay in Fetching Data
+Problem: Sometimes, weather data took too long to appear after searching.
+Solution:
+Used async/await in JavaScript to ensure the UI waits for the response.
+Implemented a loading animation while fetching data.
 
